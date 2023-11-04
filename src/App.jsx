@@ -1,4 +1,3 @@
-import FestInfo from "./components/FestInfo";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 
@@ -7,7 +6,6 @@ function App() {
     <div>
       <Nav />
       <Hero />
-      <FestInfo />
     </div>
   );
 }

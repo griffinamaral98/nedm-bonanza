@@ -91,7 +91,7 @@ const Nav = () => {
                 <div
                   className={`z-10 ${
                     dropDownIsOpen ? "" : "hidden"
-                  } font-normal  divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700 dark:divide-gray-600`}
+                  } font-normal  divide-y divide-gray-100 rounded-lg shadow w-44 bg-gray-700`}
                 >
                   <div
                     id="doubleDropDown"
@@ -101,14 +101,14 @@ const Nav = () => {
                   >
                     <ul
                       id="dropdownNavbar"
-                      className="py-2 text-sm text-gray-700 dark:text-gray-400"
+                      className="py-2 text-sm text-white"
                       aria-labelledby="dropdownLargeButton"
                     >
                       <li>
                         <a
                           href="https://docs.google.com/forms/d/1Y7Zlew6mDADfhArSU3IYbSpFPZ8dlxFteAc3ZVOIZpw/viewform"
                           target="blank"
-                          className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                          className="block px-4 py-2 hover:bg-gray-100 text-gray-500"
                         >
                           Submit Your Band
                         </a>
@@ -117,7 +117,7 @@ const Nav = () => {
                         <a
                           href="https://docs.google.com/forms/d/e/1FAIpQLSeU78ZdXIdqoCHjCZg4Ej0XANHVlo0F9GOxwz0Mkx-B47Nqig/viewform"
                           target="blank"
-                          className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                          className="block px-4 py-2 hover:bg-gray-100 text-gray-500"
                         >
                           Become a Vendor
                         </a>
@@ -126,7 +126,7 @@ const Nav = () => {
                         <a
                           href="https://docs.google.com/forms/d/e/1FAIpQLScbmEgovHzX-Z077Q_WJ6RC7SSpCWSH6veWA0yRz66hhvMrFw/viewform"
                           target="blank"
-                          className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                          className="block px-4 py-2 hover:bg-gray-100 text-gray-500"
                         >
                           Become a Sponsor
                         </a>
@@ -135,7 +135,7 @@ const Nav = () => {
                         <a
                           href="https://docs.google.com/forms/d/e/1FAIpQLSeHbD_8iPxP4pDGgkWsT2KQX_FNuDa6BBmceMdCb69Vb_Belg/viewform"
                           target="blank"
-                          className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                          className="block px-4 py-2 hover:bg-gray-100 text-gray-500"
                         >
                           Volunteer
                         </a>

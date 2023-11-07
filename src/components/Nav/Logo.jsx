@@ -1,6 +1,6 @@
 const Logo = () => {
   return (
-    <a href="#" className="">
+    <a href="#">
       <img
         src="/assets/top.png"
         className="h-16 mr-2 bg-blend-exclusion"

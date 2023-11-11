@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-image: url("../public/assets/background.png");
+  background-image: url("/assets/background.png");
+}
+
+nav {
+  font-family: "Rubik Wet Paint";
 }

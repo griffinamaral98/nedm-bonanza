@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 import Logo from "./Logo";
 import NavDropdown from "./NavDropdown";
@@ -7,7 +8,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="border-gray-700 relative">
+    <nav id="height" className="border-gray-700 relative">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Logo />
         <button
@@ -42,28 +43,29 @@ const Nav = () => {
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <a
-                href="#"
+                href="https://www.tickettailor.com/events/nedmbonanza/1056571"
                 className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
+                target="blank"
               >
                 Tickets
               </a>
             </li>
 
             <li>
-              <a
-                href="#"
+              <NavLink
+                to={`/bands`}
                 className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
               >
                 Bands
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
-                href="#"
+              <NavLink
+                to={`/festinfo`}
                 className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
               >
                 Fest Info
-              </a>
+              </NavLink>
             </li>
             <NavDropdown />
           </ul>

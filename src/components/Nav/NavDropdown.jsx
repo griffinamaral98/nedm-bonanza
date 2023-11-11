@@ -32,7 +32,7 @@ const NavDropdown = () => {
         id="dropdownNavbar"
         className={`${
           dropDownIsOpen ? "" : "hidden"
-        } z-10 font-normal rounded-lg shadow w-44 bg-black absolute`}
+        } z-10 font-normal rounded-lg shadow w-44 bg-[rgba(0,0,0,0.7)] absolute`}
       >
         <ul
           className="py-2 text-sm text-gray-400"

@@ -1,3 +1,5 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import Nav from "../components/Nav/Nav";
 
 const Bands = () => {
@@ -12,70 +14,70 @@ const Bands = () => {
       <div className="flex justify-center">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 max-w-screen-xl">
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/BONGINATOR.png"
               alt="Bonginator"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/FROGMALLET.png"
               alt="Frog Mallet"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/GROANING.png"
               alt="Groaning Retch"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/genophobic.png"
               alt="Genophobic Perversion"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/judge.png"
               alt="JUDGEXJUDY"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/MATRIPHAGY.png"
               alt="Mathriphagy"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/NECRALANT.png"
               alt="Necralant"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/PRACTICALGORE.png"
               alt="Practical Gore"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/SCISSORHASH.png"
               alt="Scissorhash"
               className="h-36 md:h-96 rounded-lg"
             />
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src="/assets/WRETCHED.png"
               alt="Wretched Inferno"
               className="h-36 md:h-96 rounded-lg mb-6"

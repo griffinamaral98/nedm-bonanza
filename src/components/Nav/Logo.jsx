@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <Link to={`/`}>
       <img
-        src="/assets/top.png"
+        src="/assets/top.webp"
         className="h-16 mr-2 bg-blend-exclusion"
         alt="NEDM Bonanza Logo"
       />

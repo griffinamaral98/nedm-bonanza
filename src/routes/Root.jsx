@@ -7,7 +7,7 @@ const HomePage = () => {
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center ">
           <img
-            src="/assets/full-logo.png"
+            src="/assets/full-logo.webp"
             alt="NEDM Bonanza"
             className="mx-auto md:h-96 drag"
           />

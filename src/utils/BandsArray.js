@@ -87,6 +87,10 @@ const BandsArray = [
     src: "LEFTTOROT.webp",
     alt: "Left To Rot",
   },
+  {
+    src: "GUTTEDCHRIST.webp",
+    alt: "Gutted Christ",
+  },
 ];
 
 export default BandsArray;

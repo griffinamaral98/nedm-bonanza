@@ -24,7 +24,7 @@ const Bands = () => {
                 effect="opacity"
               />
             );
-          })}
+          }).reverse()}
         </div>
       </div>
     </>

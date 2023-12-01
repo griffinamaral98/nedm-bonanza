@@ -95,6 +95,22 @@ const BandsArray = [
     src: "CONCRETECAVEMAN.webp",
     alt: "Concrete Caveman",
   },
+  {
+    src: "MAUL.webp",
+    alt: "Maul",
+  },
+  {
+    src: "DETERIORATION.webp",
+    alt: "Deterioration",
+  },
+  {
+    src: "POONTICKLER.webp",
+    alt: "Poon Tickler",
+  },
+  {
+    src: "MUTILATIONBBQ.webp",
+    alt: "Mutilation Barbecue",
+  },
 ];
 
 export default BandsArray;

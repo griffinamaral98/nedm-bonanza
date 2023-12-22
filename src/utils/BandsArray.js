@@ -111,6 +111,46 @@ const BandsArray = [
     src: "MUTILATIONBBQ.webp",
     alt: "Mutilation Barbecue",
   },
+  {
+    src: "DEADALIVE.webp",
+    alt: "Dead Alive",
+  },
+  {
+    src: "WINDCHIMES.webp",
+    alt: "Windchimes",
+  },
+  {
+    src: "IGNOMINIOUS.webp",
+    alt: "Ignominious",
+  },
+  {
+    src: "LICH KING.webp",
+    alt: "Lich King",
+  },
+  {
+    src: "MALIGNANCY.webp",
+    alt: "Malignancy",
+  },
+  {
+    src: "NARCOTIC.webp",
+    alt: "Narcotic Wasteland",
+  },
+  {
+    src: "BELUSHI.webp",
+    alt: "Belushi Speedball",
+  },
+  {
+    src: "BLACK MASS.webp",
+    alt: "Black Mass",
+  },
+  {
+    src: "CTTBOTO.webp",
+    alt: "Chained to the Bottom of the Ocean",
+  },
+  {
+    src: "SCATTERED.webp",
+    alt: "Scattered Remnants",
+  },
 ];
 
 export default BandsArray;

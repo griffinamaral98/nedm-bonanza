@@ -7,19 +7,10 @@ const HomePage = () => {
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center ">
           <img
-            src="/assets/full-logo.webp"
+            src="/assets/Flyer.webp"
             alt="NEDM Bonanza"
-            className="mx-auto md:h-96 drag"
+            className="mx-auto md:h-fit drag"
           />
-          <p className="text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-white">
-            June 28-30, 2024
-          </p>
-          <p className="text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-white">
-            Litchfield, NH
-          </p>
-          <p className="mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-white">
-            Full lineup and info coming soon...
-          </p>
           <div className="flex flex-col mx-auto space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
               href="https://www.instagram.com/nedm_bonanza/"

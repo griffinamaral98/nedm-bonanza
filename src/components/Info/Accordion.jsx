@@ -16,7 +16,10 @@ const AccordionInfo = () => {
         open={open === 1}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(1)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(1)}
+          className="text-white hover:text-[#96ff00]"
+        >
           What you should bring!
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -51,7 +54,10 @@ const AccordionInfo = () => {
         open={open === 2}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(2)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(2)}
+          className="text-white hover:text-[#96ff00]"
+        >
           Features
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -102,7 +108,10 @@ const AccordionInfo = () => {
         open={open === 3}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(3)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(3)}
+          className="text-white hover:text-[#96ff00]"
+        >
           Venue Info
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -132,7 +141,10 @@ const AccordionInfo = () => {
         open={open === 4}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(4)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(4)}
+          className="text-white hover:text-[#96ff00]"
+        >
           Rules and Guidelines
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -185,7 +197,10 @@ const AccordionInfo = () => {
         open={open === 5}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(5)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(5)}
+          className="text-white hover:text-[#96ff00]"
+        >
           Safety Guidelines
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -225,7 +240,10 @@ const AccordionInfo = () => {
         open={open === 6}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(6)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(6)}
+          className="text-white hover:text-[#96ff00]"
+        >
           Parking
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -251,7 +269,10 @@ const AccordionInfo = () => {
         open={open === 7}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(7)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(7)}
+          className="text-white hover:text-[#96ff00]"
+        >
           Camping
         </AccordionHeader>
         <AccordionBody className="text-white">
@@ -314,7 +335,10 @@ const AccordionInfo = () => {
         open={open === 8}
         className="py-8 px-4 mx-auto max-w-screen-lg"
       >
-        <AccordionHeader onClick={() => handleOpen(8)} className="text-white">
+        <AccordionHeader
+          onClick={() => handleOpen(8)}
+          className="text-white hover:text-[#96ff00]"
+        >
           General FAQ
         </AccordionHeader>
         <AccordionBody className="text-white">

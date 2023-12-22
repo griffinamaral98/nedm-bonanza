@@ -6,7 +6,7 @@ import {
 import { useState } from "react";
 
 const AccordionInfo = () => {
-  const [open, setOpen] = useState(0);
+  const [open, setOpen] = useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
@@ -19,7 +19,7 @@ const AccordionInfo = () => {
         <AccordionHeader onClick={() => handleOpen(1)} className="text-white">
           What you should bring!
         </AccordionHeader>
-        <AccordionBody class="text-white">
+        <AccordionBody className="text-white">
           The Bonanza isn’t in the middle of nowhere like some other fests are,
           so we do have shops reasonably nearby. However, it’s important to come
           prepared. Here is a list of things we HIGHLY encourage everyone to

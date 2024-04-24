@@ -51,7 +51,7 @@ const Nav = () => {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a
                 href="http://www.bonginator.bigcartel.com"
                 className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
@@ -59,7 +59,7 @@ const Nav = () => {
               >
                 Merch
               </a>
-            </li>
+            </li> */}
 
             <li>
               <NavLink

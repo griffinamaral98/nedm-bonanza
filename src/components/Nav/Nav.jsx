@@ -52,6 +52,16 @@ const Nav = () => {
             </li>
 
             <li>
+              <a
+                href="http://www.bonginator.bigcartel.com"
+                className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
+                target="blank"
+              >
+                Merch
+              </a>
+            </li>
+
+            <li>
               <NavLink
                 to={`/bands`}
                 className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
@@ -59,14 +69,14 @@ const Nav = () => {
                 Bands
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to={`/festinfo`}
                 className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
               >
                 Fest Info
               </NavLink>
-            </li>
+            </li> */}
             <NavDropdown />
           </ul>
         </div>

@@ -22,7 +22,7 @@ const AccordionInfo = () => {
         >
           What you should bring!
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           The Bonanza isn’t in the middle of nowhere like some other fests are,
           so we do have shops reasonably nearby. However, it’s important to come
           prepared. Here is a list of things we HIGHLY encourage everyone to
@@ -60,7 +60,7 @@ const AccordionInfo = () => {
         >
           Features
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           <h2 className="text-2xl underline">Vendors</h2>
           <p>
             The Bonanza is a hotbed for all kinds of vendors across the New
@@ -114,7 +114,7 @@ const AccordionInfo = () => {
         >
           Venue Info
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           Just like in 2023, the 2024 Bonanza will be held at The Five/Nine in
           Litchfield, New Hampshire. You aren’t going to find much on it aside
           from on facebook or instagram, however here is all the info you need.
@@ -147,7 +147,7 @@ const AccordionInfo = () => {
         >
           Rules and Guidelines
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           While the Bonanza remains a haven for all sorts of death and
           debauchery, we must put certain rules in place to ensure everyone has
           a safe and fun time at the fest. Please read this section carefully so
@@ -190,6 +190,20 @@ const AccordionInfo = () => {
             <li>Pets</li>
             <li>Burzum T-Shirts</li>
           </ol>
+          <br />
+          <br />
+          <h2 className="text-2xl underline">Pool Rules</h2>
+          <ol className="list-decimal list-inside">
+            <li>Pool capacity: 15 bodies (dead or alive)</li>
+            <li>
+              Anyone using the pool MUST hose off before entering. There will be
+              a staff member there to help with this
+            </li>
+            <li>No eating in the pool</li>
+            <li>
+              There are ashtrays around the pool, DO NOT litter your cigarettes
+            </li>
+          </ol>
         </AccordionBody>
       </Accordion>
 
@@ -203,7 +217,7 @@ const AccordionInfo = () => {
         >
           Safety Guidelines
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           <ul className="list-disc list-inside mb-4">
             <li>Stay hydrated and PACE YOURSELF.</li>
             <li>
@@ -246,7 +260,7 @@ const AccordionInfo = () => {
         >
           Parking
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           When you arrive at the Bonanza, you will be greeted by one of our
           parking operators who will direct you depending on what type of
           campsite you’ve selected. If you aren’t camping you will be directed
@@ -275,7 +289,7 @@ const AccordionInfo = () => {
         >
           Camping
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           <p className="mb-4">
             Camping is highly encouraged to everyone attending the bonanza.
             Camping passes are purchased alongside your tickets. There are 3
@@ -285,13 +299,13 @@ const AccordionInfo = () => {
           <h2 className="text-2xl underline">Tent Camping</h2>
           <ul className="list-disc list-inside mb-4">
             <li>
-              Tent campsites are in the woods area located right behind the fest
-              grounds. There are no blocked off areas for campsites, so please
-              set up your tent respective of other campers.
+              Tent camping is available all over the fest grounds and in the
+              woods behind the property
             </li>
             <li>
-              We also have VIP campsites available for bands, if these don’t
-              fill up we will open them to campers at no extra cost.
+              PLEASE set up your tent respectful of the vendors, bands, and
+              other campers. Do not set up right in front of the stage.
+              Don&apos;t set up right in front of the vendors, etc etc etc
             </li>
             <li>
               Porta potties and handwashing station are located in front of the
@@ -299,15 +313,10 @@ const AccordionInfo = () => {
               that later.
             </li>
             <li>
-              CAMPFIRES ARE ALLOWED! Please be safe and respectful. We also
-              allow propane stoves or whatever else you might need. Please don’t
-              set the woods on fire!
+              There will be 2 designated spots for campfires. Small gas stoves
+              are also permitted. Bring as much food and water as you please
             </li>
-            <li>
-              The entire fest is BYOB so go nuts. Fill your cooler to the brim
-              with whatever you want. There is also a Hannaford not too far from
-              the grounds.
-            </li>
+            <li>The fest is BYOB, so bring a cooler</li>
           </ul>
 
           <h2 className="text-2xl underline">Vehicle Camping</h2>
@@ -341,7 +350,7 @@ const AccordionInfo = () => {
         >
           General FAQ
         </AccordionHeader>
-        <AccordionBody className="text-white">
+        <AccordionBody className="text-white text-lg">
           <ul className="list-disc list-inside">
             <li>
               “I only want to buy a day pass, but I can’t tell which day my
@@ -380,6 +389,18 @@ const AccordionInfo = () => {
               If you need ANY accommodations, do not hesitate to contact our
               instagram page. We will provide WHATEVER we possibly can to ensure
               everyone has an amazing weekend!
+            </li>
+
+            <li>
+              “I no longer want to/am able to attend and would like a refund for
+              my ticket”
+            </li>
+
+            <li className="indent-8">
+              Just like any other festival or event of this nature, the only way
+              to get your money back for a purchased ticket is by selling it.
+              Neither the festival organizers nor our ticketing service can
+              provide refunds directly.
             </li>
 
             <li>

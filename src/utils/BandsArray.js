@@ -60,20 +60,12 @@ const BandsArray = [
     alt: "Tar",
   },
   {
-    src: "WORMALTAR.webp",
-    alt: "Worm Altar",
-  },
-  {
     src: "RSI.webp",
     alt: "Retained Surgical Instrument",
   },
   {
     src: "ETHEREALROT.webp",
     alt: "Ethereal Rot",
-  },
-  {
-    src: "ROTTINGBODY.webp",
-    alt: "Rotting Body",
   },
   {
     src: "ABORTEDBONGRIP.webp",
@@ -150,6 +142,14 @@ const BandsArray = [
   {
     src: "SCATTERED.webp",
     alt: "Scattered Remnants",
+  },
+  {
+    src: "IMMORTALSUFFERING.webp",
+    alt: "Immortal Suffering",
+  },
+  {
+    src: "JOEBUCK.webp",
+    alt: "Joe Buck Yourself",
   },
 ];
 

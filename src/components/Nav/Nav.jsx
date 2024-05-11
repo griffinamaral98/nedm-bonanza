@@ -69,14 +69,14 @@ const Nav = () => {
                 Bands
               </NavLink>
             </li>
-            {/* <li>
+            <li>
               <NavLink
                 to={`/festinfo`}
                 className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
               >
                 Fest Info
               </NavLink>
-            </li> */}
+            </li>
             <NavDropdown />
           </ul>
         </div>

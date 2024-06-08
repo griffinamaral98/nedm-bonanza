@@ -204,24 +204,6 @@ const AccordionInfo = () => {
 						</li>
 						<li>Be considerate of other campers space</li>
 					</ul>
-
-					<br />
-
-					<h2 className="text-2xl underline">Swimming</h2>
-					<ul className="list-disc list-inside">
-						<li>
-							About 3 miles from Charleez Hill is a private lake beach area that
-							campers are welcome to use
-						</li>
-						<li>
-							Signs will be posted directing people to the lake. A shuttle
-							service will also be provided
-						</li>
-						<li>
-							Be smart. Wear water shoes and please respect the property and
-							neighbors. Leave it better than you found it
-						</li>
-					</ul>
 				</AccordionBody>
 			</Accordion>
 

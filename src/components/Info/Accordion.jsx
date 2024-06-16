@@ -54,6 +54,7 @@ const AccordionInfo = () => {
 					Venue Info
 				</AccordionHeader>
 				<AccordionBody className="text-white text-lg">
+					<img src="/assets/map.webp" alt="Venue Map" className="rounded-lg" />
 					<h2 className="text-2xl underline">Vendors</h2>
 					<p>
 						The 2024 NEDMFTB is being held at Charleez Hill in Lebanon, ME, (aka
@@ -147,6 +148,18 @@ const AccordionInfo = () => {
 						and camp out, or camp in their car. If you plan on camping at this
 						year’s Bonanza, here is everything you should know.
 					</p>
+
+					<br />
+
+					<h2 className="text-2xl underline">
+						<a
+							href="https://www.amazon.com/hz/wishlist/ls/1LU2VT9VXH2D0/ref=hz_ls_biz_ex"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Amazon Wishlist of things to bring!
+						</a>
+					</h2>
 
 					<br />
 

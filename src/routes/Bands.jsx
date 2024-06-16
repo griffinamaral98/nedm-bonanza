@@ -30,6 +30,21 @@ const Bands = () => {
 						alt="Sunday Flier"
 						className="rounded-lg"
 					/>
+					<img
+						src="/assets/days/Friday Schedule.webp"
+						alt="Sunday Flier"
+						className="rounded-lg"
+					/>
+					<img
+						src="/assets/days/Saturday Schedule.webp"
+						alt="Sunday Flier"
+						className="rounded-lg"
+					/>
+					<img
+						src="/assets/days/Sunday Schedule.webp"
+						alt="Sunday Flier"
+						className="rounded-lg"
+					/>
 				</div>
 			</div>
 

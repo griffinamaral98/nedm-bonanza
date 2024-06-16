@@ -77,6 +77,15 @@ const Nav = () => {
 								Fest Info
 							</NavLink>
 						</li>
+						<li>
+							<a
+								href="https://open.spotify.com/playlist/4NwfCD6tW3OR25Nh6mpRQg?si=uRpgwqHRTJWrcIFj4VJ17A&pi=u-caqah4tsSg-V&nd=1&dlsi=10bce3cb1b084f99"
+								className="py-2 pl-3 pr-4 text-white md:p-0 hover:text-[#96ff00]"
+								target="blank"
+							>
+								Spotify Playlist
+							</a>
+						</li>
 						{/* <NavDropdown /> */}
 					</ul>
 				</div>
